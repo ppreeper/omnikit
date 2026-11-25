@@ -1,0 +1,2402 @@
+{
+  "project": "OmniKit (working name)",
+  "version": "1.0",
+  "date": "2026-10-18",
+  "source": "docs/tool-map.md",
+  "counts": {
+    "total": 199,
+    "P0": 33,
+    "P1": 56,
+    "P2": 110
+  },
+  "tools": [
+    {
+      "id": "TXT-01",
+      "capability": "Case conversion",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u25d0",
+        "C": "\u2014"
+      },
+      "phase": "P0",
+      "notes": "Full camel/snake/kebab/title conversion; reference B covers uppercase only."
+    },
+    {
+      "id": "TXT-02",
+      "capability": "Randomize case",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TXT-03",
+      "capability": "Reverse text",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TXT-04",
+      "capability": "Repeat text",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TXT-05",
+      "capability": "Truncate text",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TXT-06",
+      "capability": "Split text",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "TXT-07",
+      "capability": "Join text",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "TXT-08",
+      "capability": "Extract substring",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TXT-09",
+      "capability": "Find and replace",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P0",
+      "notes": "Plain text and regular-expression replacement."
+    },
+    {
+      "id": "TXT-10",
+      "capability": "Remove duplicate lines",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P0",
+      "notes": ""
+    },
+    {
+      "id": "TXT-11",
+      "capability": "Text statistics",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P0",
+      "notes": "Characters, words, lines, sentences, frequency."
+    },
+    {
+      "id": "TXT-12",
+      "capability": "Text diff / compare",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2713",
+        "C": "\u2713"
+      },
+      "phase": "P0",
+      "notes": "Unified, side-by-side, ignore whitespace/case."
+    },
+    {
+      "id": "TXT-13",
+      "capability": "Lorem ipsum generator",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2713"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "TXT-14",
+      "capability": "Slugify",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P0",
+      "notes": ""
+    },
+    {
+      "id": "TXT-15",
+      "capability": "String obfuscator",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": "Reveal-on-hover style masking for secrets."
+    },
+    {
+      "id": "TXT-16",
+      "capability": "Numeronym generator",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TXT-17",
+      "capability": "ASCII text art",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TXT-18",
+      "capability": "Emoji picker",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": "Unicode names and code points."
+    },
+    {
+      "id": "TXT-19",
+      "capability": "Palindrome check",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TXT-20",
+      "capability": "Create palindrome",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TXT-21",
+      "capability": "Morse code",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TXT-22",
+      "capability": "ROT13",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TXT-23",
+      "capability": "Rotate text",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TXT-24",
+      "capability": "Censor text",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TXT-25",
+      "capability": "Quote / unquote text",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TXT-26",
+      "capability": "Hidden character detector",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": "Bidi override and zero-width character inspection."
+    },
+    {
+      "id": "TXT-27",
+      "capability": "Email extractor",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "TXT-28",
+      "capability": "Email normalizer",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "TXT-29",
+      "capability": "Table text converter",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": "Markdown, CSV, TSV, HTML, SQL rows, JSON."
+    },
+    {
+      "id": "TXT-30",
+      "capability": "HTML entities",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": "Escape and unescape."
+    },
+    {
+      "id": "TXT-31",
+      "capability": "HTML WYSIWYG editor",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TXT-32",
+      "capability": "Markdown to HTML",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2713"
+      },
+      "phase": "P0",
+      "notes": "Live preview, sanitized output, print/PDF."
+    },
+    {
+      "id": "TXT-33",
+      "capability": "Text and binary",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TXT-34",
+      "capability": "NATO phonetic alphabet",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TXT-35",
+      "capability": "Unicode escape / unescape",
+      "category": "Text & strings",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "DAT-01",
+      "capability": "JSON format and validate",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2713",
+        "C": "\u2713"
+      },
+      "phase": "P0",
+      "notes": "Reference C integrates format, validate, tree and converters."
+    },
+    {
+      "id": "DAT-02",
+      "capability": "JSON minify",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2713",
+        "C": "\u25d0"
+      },
+      "phase": "P0",
+      "notes": ""
+    },
+    {
+      "id": "DAT-03",
+      "capability": "JSON tree viewer",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2014",
+        "C": "\u2713"
+      },
+      "phase": "P1",
+      "notes": "Expandable tree with path copy."
+    },
+    {
+      "id": "DAT-04",
+      "capability": "JSON diff",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2713",
+        "C": "\u25d0"
+      },
+      "phase": "P0",
+      "notes": ""
+    },
+    {
+      "id": "DAT-05",
+      "capability": "JSON to CSV",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2713",
+        "C": "\u25d0"
+      },
+      "phase": "P0",
+      "notes": ""
+    },
+    {
+      "id": "DAT-06",
+      "capability": "CSV / TSV to JSON",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u25d0"
+      },
+      "phase": "P0",
+      "notes": ""
+    },
+    {
+      "id": "DAT-07",
+      "capability": "JSON to XML",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "DAT-08",
+      "capability": "XML to JSON",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "DAT-09",
+      "capability": "JSON to YAML",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u25d0"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "DAT-10",
+      "capability": "YAML to JSON",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "DAT-11",
+      "capability": "JSON to TOML",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DAT-12",
+      "capability": "TOML to JSON",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DAT-13",
+      "capability": "YAML to TOML",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DAT-14",
+      "capability": "TOML to YAML",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DAT-15",
+      "capability": "YAML format / view",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "DAT-16",
+      "capability": "JSON escape / unescape",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DAT-17",
+      "capability": "JSON stringify",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DAT-18",
+      "capability": "JSON sort",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": "Sort arrays of objects by key."
+    },
+    {
+      "id": "DAT-19",
+      "capability": "JSON Schema generator",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2014",
+        "C": "\u2713"
+      },
+      "phase": "P1",
+      "notes": "Draft 2020-12 and Draft-07 output."
+    },
+    {
+      "id": "DAT-20",
+      "capability": "XML format",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2713",
+        "C": "\u2713"
+      },
+      "phase": "P0",
+      "notes": ""
+    },
+    {
+      "id": "DAT-21",
+      "capability": "XML validate",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2713"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "DAT-22",
+      "capability": "WSDL / XML tree and XPath",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2014",
+        "C": "\u2713"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DAT-23",
+      "capability": "CSV to TSV",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "DAT-24",
+      "capability": "CSV to XML",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DAT-25",
+      "capability": "CSV to YAML",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DAT-26",
+      "capability": "Change CSV separator",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "DAT-27",
+      "capability": "Transpose CSV",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "DAT-28",
+      "capability": "Insert CSV columns",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DAT-29",
+      "capability": "Swap CSV columns",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DAT-30",
+      "capability": "Find incomplete CSV records",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DAT-31",
+      "capability": "Column / list converter",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": "Prefix, suffix, transpose and column transforms."
+    },
+    {
+      "id": "DAT-32",
+      "capability": "Phone parser and formatter",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "DAT-33",
+      "capability": "IBAN validator and parser",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DAT-34",
+      "capability": "HTTP status codes",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DAT-35",
+      "capability": "MIME type lookup",
+      "category": "Data formats",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "ENC-01",
+      "capability": "Base64 text encode/decode",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2713",
+        "C": "\u2713"
+      },
+      "phase": "P0",
+      "notes": ""
+    },
+    {
+      "id": "ENC-02",
+      "capability": "Base64 file encode/decode",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "ENC-03",
+      "capability": "URL encode/decode",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2713",
+        "C": "\u2713"
+      },
+      "phase": "P0",
+      "notes": ""
+    },
+    {
+      "id": "ENC-04",
+      "capability": "URL parser and editor",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "ENC-05",
+      "capability": "Hash generator (MD5/SHA)",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2713"
+      },
+      "phase": "P0",
+      "notes": "MD5, SHA-1/2/3 family."
+    },
+    {
+      "id": "ENC-06",
+      "capability": "Bcrypt hash and compare",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "ENC-07",
+      "capability": "HMAC generator",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "ENC-08",
+      "capability": "Symmetric encryption / decryption",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": "AES, TripleDES, Rabbit; passphrase based."
+    },
+    {
+      "id": "ENC-09",
+      "capability": "RSA key pair generator",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "ENC-10",
+      "capability": "BIP39 mnemonic",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "ENC-11",
+      "capability": "Random token generator",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "ENC-12",
+      "capability": "UUID generator and validator",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2713"
+      },
+      "phase": "P0",
+      "notes": "v1/v4/v7 where supported; bulk and validation."
+    },
+    {
+      "id": "ENC-13",
+      "capability": "ULID generator",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "ENC-14",
+      "capability": "Password strength analyser",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "ENC-15",
+      "capability": "Password generator",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P0",
+      "notes": ""
+    },
+    {
+      "id": "ENC-16",
+      "capability": "OTP generator and validator",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": "TOTP/HOTP."
+    },
+    {
+      "id": "ENC-17",
+      "capability": "JWT parser",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P0",
+      "notes": "Decode header, payload, signature; no verification by default."
+    },
+    {
+      "id": "ENC-18",
+      "capability": "Basic auth header generator",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "ENC-19",
+      "capability": "Random port generator",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "ENC-20",
+      "capability": "Random number generator",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "ENC-21",
+      "capability": "QR code generator",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P0",
+      "notes": "URL, text, email, phone, SMS, WiFi, vCard."
+    },
+    {
+      "id": "ENC-22",
+      "capability": "WiFi QR code generator",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "ENC-23",
+      "capability": "SVG placeholder generator",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "ENC-24",
+      "capability": "Camera recorder",
+      "category": "Encoding & security",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": "Photo and video capture via MediaDevices."
+    },
+    {
+      "id": "DEV-01",
+      "capability": "Device information",
+      "category": "Web & developer utilities",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DEV-02",
+      "capability": "Meta tag / Open Graph generator",
+      "category": "Web & developer utilities",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DEV-03",
+      "capability": "Keycode information",
+      "category": "Web & developer utilities",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DEV-04",
+      "capability": "User-agent parser",
+      "category": "Web & developer utilities",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DEV-05",
+      "capability": "Safelink decoder",
+      "category": "Web & developer utilities",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DEV-06",
+      "capability": "Git cheatsheet",
+      "category": "Web & developer utilities",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DEV-07",
+      "capability": "Regex tester",
+      "category": "Web & developer utilities",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2713"
+      },
+      "phase": "P0",
+      "notes": "Live match highlighting, groups, replacement preview, common patterns."
+    },
+    {
+      "id": "DEV-08",
+      "capability": "Regex cheatsheet",
+      "category": "Web & developer utilities",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DEV-09",
+      "capability": "Cron parser and builder",
+      "category": "Web & developer utilities",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2713",
+        "C": "\u2713"
+      },
+      "phase": "P0",
+      "notes": "Human-readable explanation and next-run preview."
+    },
+    {
+      "id": "DEV-10",
+      "capability": "SQL formatter",
+      "category": "Web & developer utilities",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": "Dialect-aware formatting."
+    },
+    {
+      "id": "DEV-11",
+      "capability": "Chmod calculator",
+      "category": "Web & developer utilities",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DEV-12",
+      "capability": "Docker run to Compose",
+      "category": "Web & developer utilities",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "DEV-13",
+      "capability": "Benchmark builder",
+      "category": "Web & developer utilities",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TIM-01",
+      "capability": "Date-time converter",
+      "category": "Date & time",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": "ISO, RFC, Unix, local and custom formats."
+    },
+    {
+      "id": "TIM-02",
+      "capability": "Unix timestamp converter",
+      "category": "Date & time",
+      "presence": {
+        "A": "\u25d0",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P0",
+      "notes": ""
+    },
+    {
+      "id": "TIM-03",
+      "capability": "Time between dates",
+      "category": "Date & time",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "TIM-04",
+      "capability": "Leap year checker",
+      "category": "Date & time",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TIM-05",
+      "capability": "Days and hours conversion",
+      "category": "Date & time",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TIM-06",
+      "capability": "Seconds and time conversion",
+      "category": "Date & time",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TIM-07",
+      "capability": "Time to decimal",
+      "category": "Date & time",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TIM-08",
+      "capability": "Time to seconds",
+      "category": "Date & time",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TIM-09",
+      "capability": "Truncate clock time",
+      "category": "Date & time",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TIM-10",
+      "capability": "Weekday calculator",
+      "category": "Date & time",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TIM-11",
+      "capability": "Discord timestamp generator",
+      "category": "Date & time",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "TIM-12",
+      "capability": "ETA calculator",
+      "category": "Date & time",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "NUM-01",
+      "capability": "Percentage calculator",
+      "category": "Numbers & math",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P0",
+      "notes": ""
+    },
+    {
+      "id": "NUM-02",
+      "capability": "Math expression evaluator",
+      "category": "Numbers & math",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P0",
+      "notes": ""
+    },
+    {
+      "id": "NUM-03",
+      "capability": "Chronometer / stopwatch",
+      "category": "Numbers & math",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "NUM-04",
+      "capability": "Temperature converter",
+      "category": "Numbers & math",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "NUM-05",
+      "capability": "Byte / data unit converter",
+      "category": "Numbers & math",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": "SI and binary units."
+    },
+    {
+      "id": "NUM-06",
+      "capability": "Number to words",
+      "category": "Numbers & math",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "NUM-07",
+      "capability": "Arithmetic sequence",
+      "category": "Numbers & math",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "NUM-08",
+      "capability": "Number sequence generator",
+      "category": "Numbers & math",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "NUM-09",
+      "capability": "Sum numbers",
+      "category": "Numbers & math",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "NUM-10",
+      "capability": "Ohm's law calculator",
+      "category": "Numbers & math",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "NUM-11",
+      "capability": "Cable voltage drop",
+      "category": "Numbers & math",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "NUM-12",
+      "capability": "Sphere area",
+      "category": "Numbers & math",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "NUM-13",
+      "capability": "Sphere volume",
+      "category": "Numbers & math",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "NUM-14",
+      "capability": "Slackline tension",
+      "category": "Numbers & math",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "NUM-15",
+      "capability": "Integer base converter",
+      "category": "Numbers & math",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "NUM-16",
+      "capability": "Roman numeral converter",
+      "category": "Numbers & math",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "NET-01",
+      "capability": "IPv4 subnet calculator",
+      "category": "Network",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "NET-02",
+      "capability": "IPv4 address converter",
+      "category": "Network",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "NET-03",
+      "capability": "IPv4 range expander",
+      "category": "Network",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "NET-04",
+      "capability": "IPv6 ULA generator",
+      "category": "Network",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "NET-05",
+      "capability": "MAC address generator",
+      "category": "Network",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "NET-06",
+      "capability": "MAC address lookup",
+      "category": "Network",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": "Vendor lookup uses a bundled or user-supplied database."
+    },
+    {
+      "id": "DSN-01",
+      "capability": "Color converter",
+      "category": "Design",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2713"
+      },
+      "phase": "P0",
+      "notes": "HEX, RGB, HSL, CMYK; visual picker and contrast hints."
+    },
+    {
+      "id": "LST-01",
+      "capability": "Group or chunk list",
+      "category": "Lists",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": "Reference B exposes grouping; an unexposed chunk implementation also exists. OmniKit exposes both."
+    },
+    {
+      "id": "LST-02",
+      "capability": "Duplicate list items",
+      "category": "Lists",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "LST-03",
+      "capability": "Most popular list items",
+      "category": "Lists",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "LST-04",
+      "capability": "Unique list items",
+      "category": "Lists",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "LST-05",
+      "capability": "Reverse list",
+      "category": "Lists",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "LST-06",
+      "capability": "Rotate list",
+      "category": "Lists",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "LST-07",
+      "capability": "Shuffle list",
+      "category": "Lists",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "LST-08",
+      "capability": "Sort list",
+      "category": "Lists",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "LST-09",
+      "capability": "Truncate list",
+      "category": "Lists",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "LST-10",
+      "capability": "Unwrap list",
+      "category": "Lists",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "LST-11",
+      "capability": "Wrap list",
+      "category": "Lists",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "IMG-01",
+      "capability": "Resize image",
+      "category": "Images",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P0",
+      "notes": "Pixels or percentage; preserve aspect ratio."
+    },
+    {
+      "id": "IMG-02",
+      "capability": "Compress image",
+      "category": "Images",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P0",
+      "notes": "Quality and format controls."
+    },
+    {
+      "id": "IMG-03",
+      "capability": "Compress PNG",
+      "category": "Images",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": "Lossless and lossy PNG optimisation."
+    },
+    {
+      "id": "IMG-04",
+      "capability": "Crop image",
+      "category": "Images",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P0",
+      "notes": ""
+    },
+    {
+      "id": "IMG-05",
+      "capability": "Rotate image",
+      "category": "Images",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "IMG-06",
+      "capability": "Image editor",
+      "category": "Images",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": "Crop, rotate, annotate, adjust, export."
+    },
+    {
+      "id": "IMG-07",
+      "capability": "Change image colours",
+      "category": "Images",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "IMG-08",
+      "capability": "Change image opacity",
+      "category": "Images",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "IMG-09",
+      "capability": "Create transparent PNG",
+      "category": "Images",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "IMG-10",
+      "capability": "Remove image background",
+      "category": "Images",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "IMG-11",
+      "capability": "Watermark images",
+      "category": "Images",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "IMG-12",
+      "capability": "Split image into pages",
+      "category": "Images",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "IMG-13",
+      "capability": "JPG to PNG",
+      "category": "Images",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P0",
+      "notes": ""
+    },
+    {
+      "id": "IMG-14",
+      "capability": "Image to JPG",
+      "category": "Images",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "IMG-15",
+      "capability": "Image to WebP",
+      "category": "Images",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "IMG-16",
+      "capability": "Image to text (OCR)",
+      "category": "Images",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "VID-01",
+      "capability": "Trim video",
+      "category": "Video",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "VID-02",
+      "capability": "Merge videos",
+      "category": "Video",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "VID-03",
+      "capability": "Resize video",
+      "category": "Video",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "VID-04",
+      "capability": "Crop video",
+      "category": "Video",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "VID-05",
+      "capability": "Rotate video",
+      "category": "Video",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "VID-06",
+      "capability": "Flip video",
+      "category": "Video",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "VID-07",
+      "capability": "Compress video",
+      "category": "Video",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "VID-08",
+      "capability": "Change video speed",
+      "category": "Video",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "VID-09",
+      "capability": "Loop video",
+      "category": "Video",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "VID-10",
+      "capability": "Add audio to video",
+      "category": "Video",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "VID-11",
+      "capability": "Extract audio from video",
+      "category": "Video",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "VID-12",
+      "capability": "Video to GIF",
+      "category": "Video",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "VID-13",
+      "capability": "Images to GIF",
+      "category": "Video",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "VID-14",
+      "capability": "Change GIF speed",
+      "category": "Video",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "AUD-01",
+      "capability": "Trim audio",
+      "category": "Audio",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "AUD-02",
+      "capability": "Merge audio",
+      "category": "Audio",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "AUD-03",
+      "capability": "Loop audio",
+      "category": "Audio",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "AUD-04",
+      "capability": "Change audio speed",
+      "category": "Audio",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "AUD-05",
+      "capability": "Audio format converter",
+      "category": "Audio",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "PDF-01",
+      "capability": "Merge PDF",
+      "category": "PDF & documents",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2713"
+      },
+      "phase": "P0",
+      "notes": ""
+    },
+    {
+      "id": "PDF-02",
+      "capability": "Split PDF",
+      "category": "PDF & documents",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2713"
+      },
+      "phase": "P0",
+      "notes": ""
+    },
+    {
+      "id": "PDF-03",
+      "capability": "Compress PDF",
+      "category": "PDF & documents",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2713"
+      },
+      "phase": "P0",
+      "notes": "Licence-safe object-stream optimisation and image downsampling."
+    },
+    {
+      "id": "PDF-04",
+      "capability": "PDF editor",
+      "category": "PDF & documents",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u25d0"
+      },
+      "phase": "P1",
+      "notes": "Annotate, highlight, form fill, page rotate/delete/reorder."
+    },
+    {
+      "id": "PDF-05",
+      "capability": "Images to PDF",
+      "category": "PDF & documents",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2713"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "PDF-06",
+      "capability": "PDF to PNG / images",
+      "category": "PDF & documents",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2713"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "PDF-07",
+      "capability": "Rotate PDF pages",
+      "category": "PDF & documents",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "PDF-08",
+      "capability": "Protect PDF with password",
+      "category": "PDF & documents",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P1",
+      "notes": ""
+    },
+    {
+      "id": "PDF-09",
+      "capability": "Extract images from PDF",
+      "category": "PDF & documents",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "PDF-10",
+      "capability": "PDF to EPUB",
+      "category": "PDF & documents",
+      "presence": {
+        "A": "\u2014",
+        "B": "\u2713",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    },
+    {
+      "id": "PDF-11",
+      "capability": "PDF signature verification",
+      "category": "PDF & documents",
+      "presence": {
+        "A": "\u2713",
+        "B": "\u2014",
+        "C": "\u2014"
+      },
+      "phase": "P2",
+      "notes": ""
+    }
+  ]
+}
